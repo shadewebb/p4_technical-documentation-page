@@ -1,0 +1,28 @@
+/* Blocks */
+
+body {
+  background-color: #EEEEEE;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  background-color: #EEEEEE;
+}
+
+.header {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px hsl(0, 0%, 50%); 
+  border-radius: 40px;
+  padding: 5px 10px;
+  display: flex;
+}
+
+/* Elements */
+
+.header__nav-button {
+  margin-left: auto;
+}
