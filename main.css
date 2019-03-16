@@ -5,10 +5,17 @@ body {
 }
 
 .container {
+  min-width: 320px;
   max-width: 900px;
   width: 100%;
   background-color: hsl(0, 0%, 100%);
   background-color: #EEEEEE;
+  display: grid;
+  grid-template-areas: 
+    "header"
+    "nav"
+    "content"
+    "footer"
 }
 
 .header {
@@ -19,6 +26,19 @@ body {
   border-radius: 40px;
   padding: 5px 10px;
   display: flex;
+  grid-area: header;
+}
+
+.content {
+  grid-area: content;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.footer {
+  grid-area: footer;
 }
 
 /* Elements */
